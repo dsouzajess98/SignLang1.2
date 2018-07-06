@@ -1,0 +1,9 @@
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.deps.json
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.dll
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.pdb
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.csprojAssemblyReference.cache
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.csproj.CoreCompileInputs.cache
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.AssemblyInfoInputs.cache
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.AssemblyInfo.cs
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.dll
+C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.pdb
