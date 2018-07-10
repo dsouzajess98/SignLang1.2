@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "16643cc303b5dc27a9b68fcbe87de6d304564f8b"
+    "signature": "791bff8c9f678f67477f04fb01986b983e665189"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "CustomRenderer/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
+          "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "runtime": {
@@ -20,6 +21,11 @@
       "NETStandard.Library/2.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PowerArgs/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
         }
       },
       "Xamarin.Forms/3.0.0.482510": {
@@ -50,6 +56,13 @@
       "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "PowerArgs/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTO3KyaPqYgztP5qVhY+hnO/7FgCVtIaFU7M4B+NQc0LZ/F52CvhWsZAmwIM/klYWeDxzKF7y8eU23Ve8u5oWw==",
+      "path": "powerargs/3.0.0",
+      "hashPath": "powerargs.3.0.0.nupkg.sha512"
     },
     "Xamarin.Forms/3.0.0.482510": {
       "type": "package",

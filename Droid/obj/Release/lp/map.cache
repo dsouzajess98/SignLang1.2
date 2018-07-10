@@ -1,10 +1,16 @@
 CustomRenderer
 FormsViewGroup
+Newtonsoft.Json
 OpenCvSharp.Blob
 OpenCvSharp
+Plugin.CurrentActivity
+Plugin.Media
+Plugin.Permissions
 PowerArgs
 System.Runtime
 TensorFlowSharp
+TensorFlowXamarin
+Xam.Plugins.OnDeviceCustomVision
 Xamarin.Android.Support.Animated.Vector.Drawable
 Xamarin.Android.Support.Annotations
 Xamarin.Android.Support.Compat

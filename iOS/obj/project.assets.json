@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Kawaian.OpenCVSharp/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        }
+      },
+      "PowerArgs/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -129,6 +150,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Kawaian.OpenCVSharp": "1.0.0",
+          "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -140,6 +163,27 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Kawaian.OpenCVSharp/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        }
+      },
+      "PowerArgs/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -267,6 +311,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Kawaian.OpenCVSharp": "1.0.0",
+          "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -278,6 +324,27 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Kawaian.OpenCVSharp/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        }
+      },
+      "PowerArgs/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -405,6 +472,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Kawaian.OpenCVSharp": "1.0.0",
+          "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -416,6 +485,27 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Kawaian.OpenCVSharp/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        }
+      },
+      "PowerArgs/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -543,6 +633,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Kawaian.OpenCVSharp": "1.0.0",
+          "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
@@ -555,6 +647,27 @@
     }
   },
   "libraries": {
+    "Kawaian.OpenCVSharp/1.0.0": {
+      "sha512": "qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
+      "type": "package",
+      "path": "kawaian.opencvsharp/1.0.0",
+      "files": [
+        "kawaian.opencvsharp.1.0.0.nupkg.sha512",
+        "kawaian.opencvsharp.nuspec",
+        "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll"
+      ]
+    },
+    "PowerArgs/3.0.0": {
+      "sha512": "NTO3KyaPqYgztP5qVhY+hnO/7FgCVtIaFU7M4B+NQc0LZ/F52CvhWsZAmwIM/klYWeDxzKF7y8eU23Ve8u5oWw==",
+      "type": "package",
+      "path": "powerargs/3.0.0",
+      "files": [
+        "lib/netstandard2.0/PowerArgs.dll",
+        "lib/netstandard2.0/PowerArgs.xml",
+        "powerargs.3.0.0.nupkg.sha512",
+        "powerargs.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.0.0.482510": {
       "sha512": "kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
       "type": "package",
@@ -711,24 +824,25 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "CustomRenderer >= 1.0.0",
+      "Kawaian.OpenCVSharp >= 1.0.0",
       "Xamarin.Forms >= 3.0.0.482510"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dsouz\\.nuget\\packages\\": {}
+    "C:\\Users\\dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\iOS\\CustomRenderer.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\CustomRenderer.iOS.csproj",
       "projectName": "CustomRenderer.iOS",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\iOS\\CustomRenderer.iOS.csproj",
-      "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\iOS\\obj\\",
+      "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\CustomRenderer.iOS.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\dsouz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -741,8 +855,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj": {
-              "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj"
+            "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj": {
+              "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj"
             }
           }
         }
@@ -751,6 +865,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Kawaian.OpenCVSharp": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.0.0.482510, )"

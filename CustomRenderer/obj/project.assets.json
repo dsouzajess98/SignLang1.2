@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
+      "Kawaian.OpenCVSharp/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.4.0.18342"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -26,6 +38,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "PowerArgs/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
+        }
+      },
       "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "compile": {
@@ -46,6 +67,16 @@
     }
   },
   "libraries": {
+    "Kawaian.OpenCVSharp/1.0.0": {
+      "sha512": "qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
+      "type": "package",
+      "path": "kawaian.opencvsharp/1.0.0",
+      "files": [
+        "kawaian.opencvsharp.1.0.0.nupkg.sha512",
+        "kawaian.opencvsharp.nuspec",
+        "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll"
+      ]
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -185,6 +216,17 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.1.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "PowerArgs/3.0.0": {
+      "sha512": "NTO3KyaPqYgztP5qVhY+hnO/7FgCVtIaFU7M4B+NQc0LZ/F52CvhWsZAmwIM/klYWeDxzKF7y8eU23Ve8u5oWw==",
+      "type": "package",
+      "path": "powerargs/3.0.0",
+      "files": [
+        "lib/netstandard2.0/PowerArgs.dll",
+        "lib/netstandard2.0/PowerArgs.xml",
+        "powerargs.3.0.0.nupkg.sha512",
+        "powerargs.nuspec"
       ]
     },
     "Xamarin.Forms/3.0.0.482510": {
@@ -337,28 +379,30 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Kawaian.OpenCVSharp >= 1.0.0",
       "NETStandard.Library >= 2.0.1",
+      "PowerArgs >= 3.0.0",
       "Xamarin.Forms >= 3.0.0.482510"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dsouz\\.nuget\\packages\\": {},
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj",
+      "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj",
       "projectName": "CustomRenderer",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj",
-      "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\obj\\",
+      "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\dsouz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -382,11 +426,19 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
+          "Kawaian.OpenCVSharp": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.1, )",
             "autoReferenced": true
+          },
+          "PowerArgs": {
+            "target": "Package",
+            "version": "[3.0.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
@@ -400,5 +452,17 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Kawaian.OpenCVSharp 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Kawaian.OpenCVSharp",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
 }

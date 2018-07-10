@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "16643cc303b5dc27a9b68fcbe87de6d304564f8b"
+    "signature": "cece65005741c6cb873cbc6e7204f9fbf68186fb"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,17 +9,32 @@
     ".NETStandard,Version=v2.0/": {
       "CustomRenderer/1.0.0": {
         "dependencies": {
+          "Kawaian.OpenCVSharp": "1.0.0",
           "NETStandard.Library": "2.0.1",
+          "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
         "runtime": {
           "CustomRenderer.dll": {}
         }
       },
+      "Kawaian.OpenCVSharp/1.0.0": {
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.482510"
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "NETStandard.Library/2.0.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "PowerArgs/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/PowerArgs.dll": {}
         }
       },
       "Xamarin.Forms/3.0.0.482510": {
@@ -37,6 +52,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Kawaian.OpenCVSharp/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
+      "path": "kawaian.opencvsharp/1.0.0",
+      "hashPath": "kawaian.opencvsharp.1.0.0.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -50,6 +72,13 @@
       "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "PowerArgs/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTO3KyaPqYgztP5qVhY+hnO/7FgCVtIaFU7M4B+NQc0LZ/F52CvhWsZAmwIM/klYWeDxzKF7y8eU23Ve8u5oWw==",
+      "path": "powerargs/3.0.0",
+      "hashPath": "powerargs.3.0.0.nupkg.sha512"
     },
     "Xamarin.Forms/3.0.0.482510": {
       "type": "package",

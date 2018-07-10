@@ -7,3 +7,12 @@ C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomR
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.AssemblyInfo.cs
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.dll
 C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.pdb
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.deps.json
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.dll
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\bin\Debug\netstandard2.0\CustomRenderer.pdb
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.csprojAssemblyReference.cache
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.AssemblyInfoInputs.cache
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.AssemblyInfo.cs
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.dll
+C:\Users\dell\source\repos\SignLang1.2\CustomRenderer\obj\Debug\netstandard2.0\CustomRenderer.pdb

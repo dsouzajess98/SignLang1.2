@@ -5,8 +5,7 @@ public class CameraPreview
 	extends android.view.ViewGroup
 	implements
 		mono.android.IGCUserPeer,
-		android.view.SurfaceHolder.Callback,
-		android.hardware.Camera.PreviewCallback
+		android.view.SurfaceHolder.Callback
 {
 /** @hide */
 	public static final String __md_methods;
@@ -17,7 +16,6 @@ public class CameraPreview
 			"n_surfaceChanged:(Landroid/view/SurfaceHolder;III)V:GetSurfaceChanged_Landroid_view_SurfaceHolder_IIIHandler:Android.Views.ISurfaceHolderCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_surfaceCreated:(Landroid/view/SurfaceHolder;)V:GetSurfaceCreated_Landroid_view_SurfaceHolder_Handler:Android.Views.ISurfaceHolderCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"n_surfaceDestroyed:(Landroid/view/SurfaceHolder;)V:GetSurfaceDestroyed_Landroid_view_SurfaceHolder_Handler:Android.Views.ISurfaceHolderCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
-			"n_onPreviewFrame:([BLandroid/hardware/Camera;)V:GetOnPreviewFrame_arrayBLandroid_hardware_Camera_Handler:Android.Hardware.Camera/IPreviewCallbackInvoker, Mono.Android, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null\n" +
 			"";
 		mono.android.Runtime.register ("CustomRenderer.Droid.CameraPreview, CustomRenderer.Droid", CameraPreview.class, __md_methods);
 	}
@@ -85,14 +83,6 @@ public class CameraPreview
 	}
 
 	private native void n_surfaceDestroyed (android.view.SurfaceHolder p0);
-
-
-	public void onPreviewFrame (byte[] p0, android.hardware.Camera p1)
-	{
-		n_onPreviewFrame (p0, p1);
-	}
-
-	private native void n_onPreviewFrame (byte[] p0, android.hardware.Camera p1);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

@@ -26,6 +26,7 @@ namespace CustomRenderer.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xam.Plugins.OnDeviceCustomVision.Resource.String.library_name = global::CustomRenderer.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::CustomRenderer.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -3738,6 +3739,9 @@ namespace CustomRenderer.Droid
 			
 			// aapt resource value: 2131099683
 			public static int character_counter_pattern = 2131099683;
+			
+			// aapt resource value: 0
+			public static int library_name = 0;
 			
 			// aapt resource value: 2131099667
 			public static int mr_button_content_description = 2131099667;

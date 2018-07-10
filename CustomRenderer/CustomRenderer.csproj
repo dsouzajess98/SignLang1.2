@@ -5,6 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Kawaian.OpenCVSharp" Version="1.0.0" />
+    <PackageReference Include="PowerArgs" Version="3.0.0" />
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
 

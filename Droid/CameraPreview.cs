@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Collections.Generic;
 using Android.Content;
 using Android.Hardware;
@@ -10,7 +11,9 @@ using TensorFlow;
 using System.IO;
 using System.Threading.Tasks;
 using Android.Widget;
-
+using Android.Hardware.Camera2;
+using Android.Hardware.Camera2.Params;
+using Android.Renderscripts;
 
 namespace CustomRenderer.Droid
 {
@@ -22,13 +25,10 @@ namespace CustomRenderer.Droid
 		IList<Camera.Size> supportedPreviewSizes;
 		Camera camera;
 		IWindowManager windowManager;
-       
-
-        readonly ImageClassifier imageClassifier = new ImageClassifier();
-
+        static int count=0;
         public bool IsPreviewing { get; set; }
-
-		public Camera Preview {
+        readonly ImageClassifier imageClassifier = new ImageClassifier();
+        public Camera Preview {
 			get { return camera; }
 			set {
 				camera = value;
@@ -46,26 +46,66 @@ namespace CustomRenderer.Droid
             try
             {
 
-                Android.Hardware.Camera.Parameters parameters = camera.GetParameters();
+                Camera.Parameters parameters = camera.GetParameters();
                 
                 int width = parameters.PreviewSize.Width;
                 int height = parameters.PreviewSize.Height;
-                MemoryStream outstr = new MemoryStream();
-                Android.Graphics.YuvImage yuv = new Android.Graphics.YuvImage(data, parameters.PreviewFormat, width, height, null);
-                yuv.CompressToJpeg(new Android.Graphics.Rect(0, 0, width, height), 50, outstr);
-                var bmp = Android.Graphics.BitmapFactory.DecodeByteArray(outstr.ToArray(),0, outstr.ToArray().Length);
-               
+                Android.Graphics.Bitmap bmp = BytetoMap(data,camera);
+
                 var result = Task.Run(() => imageClassifier.RecognizeImage(bmp));
+                System.Diagnostics.Debug.WriteLine(result);
             }
             finally
             {
-
+                CustomRenderer.MainPage.result.Text = "Changed";
             }
-            CustomRenderer.MainPage.result.Text = "Changed";
+            
             
 
         }
-		public CameraPreview (Context context)
+        public Android.Graphics.Bitmap BytetoMap(byte[] data,Camera camera)
+        {
+            Camera.Parameters parameters = camera.GetParameters();
+
+            int width = parameters.PreviewSize.Width;
+            int height = parameters.PreviewSize.Height;
+            Android.Graphics.Bitmap bmp;
+            MemoryStream outstr = new MemoryStream();
+            Android.Graphics.YuvImage yuv = new Android.Graphics.YuvImage(data, parameters.PreviewFormat, width, height, null);
+            yuv.CompressToJpeg(new Android.Graphics.Rect(0, 0, width, height), 50, outstr);
+            bmp = Android.Graphics.BitmapFactory.DecodeByteArray(outstr.ToArray(), 0, outstr.ToArray().Length);
+            bmp = ToGrayscale(bmp);
+            //to save on device.
+         /*   string path = Android.OS.Environment.ExternalStorageDirectory + "/DCIM/Collage/hand"+count.ToString()+".jpg";
+            count++;
+            using (var os = new System.IO.FileStream(path, System.IO.FileMode.Create))
+            {
+                bmp.Compress(Android.Graphics.Bitmap.CompressFormat.Jpeg, 100, os);
+            }*/
+            return bmp;
+            
+        }
+        public Android.Graphics.Bitmap ToGrayscale(Android.Graphics.Bitmap bmpOriginal)
+        {
+            int width, height;
+            height = bmpOriginal.Height;
+            width = bmpOriginal.Width;
+
+            float[] mat = new float[]{
+            0.3f, 0.59f, 0.11f, 0, 0,
+            0.3f, 0.59f, 0.11f, 0, 0,
+            0.3f, 0.59f, 0.11f, 0, 0,
+            0, 0, 0, 1, 0,};
+
+            Android.Graphics.Bitmap bmpGrayscale = Android.Graphics.Bitmap.CreateBitmap(width, height, Android.Graphics.Bitmap.Config.Argb8888);
+            Android.Graphics.Canvas c = new Android.Graphics.Canvas(bmpGrayscale);
+            Android.Graphics.ColorMatrixColorFilter filter = new Android.Graphics.ColorMatrixColorFilter(mat);
+            Android.Graphics.Paint paint = new Android.Graphics.Paint();
+            paint.SetColorFilter(filter);
+            c.DrawBitmap(bmpOriginal, 0, 0, paint);
+            return bmpGrayscale;
+        }
+        public CameraPreview (Context context)
 			: base (context)
 		{
 			surfaceView = new SurfaceView (context);
@@ -103,7 +143,7 @@ namespace CustomRenderer.Droid
 			try {
 				if (Preview != null) {
 					Preview.SetPreviewDisplay (holder);
-                   // Preview.SetPreviewCallback(this);
+                    Preview.SetPreviewCallback(this);
                 }
 			} catch (Exception ex) {
 				System.Diagnostics.Debug.WriteLine (@"			ERROR: ", ex.Message);
