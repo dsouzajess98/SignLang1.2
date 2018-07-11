@@ -19,7 +19,7 @@ namespace CustomRenderer.Droid
 			base.OnCreate (bundle);
             
             global::Xamarin.Forms.Forms.Init (this, bundle);
-         //   Xam.Plugins.OnDeviceCustomVision.CrossImageClassifier.Current.Init("model.pb", Xam.Plugins.OnDeviceCustomVision.ModelType.General);
+
             LoadApplication (new App ());
 		}
 	}

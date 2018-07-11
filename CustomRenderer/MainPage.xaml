@@ -8,7 +8,7 @@
 	<ContentPage.Content>
 		<StackLayout>
 			<Label Text="Camera Preview:" />
-            <Label x:Name="res" Text="Hello" />
+            <Label x:Name="res" Text="" />
             <!--Changed camera from Rear to Front-->
 			<local:CameraPreview Camera="Front" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
 		</StackLayout>

@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Newtonsoft.Json/11.0.2": {
         "type": "package",
         "compile": {
@@ -441,7 +429,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -455,16 +442,6 @@
     }
   },
   "libraries": {
-    "Kawaian.OpenCVSharp/1.0.0": {
-      "sha512": "qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
-      "type": "package",
-      "path": "kawaian.opencvsharp/1.0.0",
-      "files": [
-        "kawaian.opencvsharp.1.0.0.nupkg.sha512",
-        "kawaian.opencvsharp.nuspec",
-        "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll"
-      ]
-    },
     "Newtonsoft.Json/11.0.2": {
       "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "type": "package",
@@ -998,7 +975,6 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
       "CustomRenderer >= 1.0.0",
-      "Kawaian.OpenCVSharp >= 1.0.0",
       "Newtonsoft.Json >= 11.0.2",
       "PowerArgs >= 3.0.0",
       "TensorFlowSharp >= 1.7.0",
@@ -1050,10 +1026,6 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
-          "Kawaian.OpenCVSharp": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[11.0.2, )"

@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "UAP,Version=v10.0.16299": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -303,7 +291,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -316,18 +303,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -791,7 +766,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -804,18 +778,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm-aot": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -1280,7 +1242,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -1293,18 +1254,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-arm64-aot": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -1594,7 +1543,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -1607,18 +1555,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -2082,7 +2018,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -2095,18 +2030,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x64-aot": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -2571,7 +2494,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -2584,18 +2506,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -3059,7 +2969,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -3072,18 +2981,6 @@
       }
     },
     "UAP,Version=v10.0.16299/win10-x86-aot": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -3548,7 +3445,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -3562,16 +3458,6 @@
     }
   },
   "libraries": {
-    "Kawaian.OpenCVSharp/1.0.0": {
-      "sha512": "qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
-      "type": "package",
-      "path": "kawaian.opencvsharp/1.0.0",
-      "files": [
-        "kawaian.opencvsharp.1.0.0.nupkg.sha512",
-        "kawaian.opencvsharp.nuspec",
-        "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll"
-      ]
-    },
     "Microsoft.Net.Native.Compiler/2.0.0": {
       "sha512": "LOVoWPYT9iJu7/CKsWt6hm5b2FSCfuJAOD1CUEoa0OEL1xR3THY+NPtRL57jmV6gVZOIiuw7iro60r4MV6sODA==",
       "type": "package",
@@ -7237,7 +7123,6 @@
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "CustomRenderer >= 1.0.0",
-      "Kawaian.OpenCVSharp >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.0.1",
       "Xamarin.Forms >= 3.1.0.583944"
     ]
@@ -7283,10 +7168,6 @@
     "frameworks": {
       "uap10.0.16299": {
         "dependencies": {
-          "Kawaian.OpenCVSharp": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
             "version": "[6.0.1, )"

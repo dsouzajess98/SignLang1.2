@@ -205,6 +205,11 @@ C:\Users\dell\source\repos\SignLang1.2\Droid\bin\Debug\System.Data.SqlXml.dll
 C:\Users\dell\source\repos\SignLang1.2\Droid\bin\Debug\System.Security.pdb
 C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\linksrc\System.Security.pdb
 C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\android\assets\System.Security.pdb
+C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\res\drawable\bg.jpg
+C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\res\drawable\bg1.jpg
+C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\res\drawable\gesturerecog.png
+C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\res\drawable\heading.png
+C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\res\drawable\signlanguage.png
 C:\Users\dell\source\repos\SignLang1.2\Droid\bin\Debug\CustomRenderer.Droid.dll
 C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\linksrc\CustomRenderer.Droid.dll.mdb
 C:\Users\dell\source\repos\SignLang1.2\Droid\obj\Debug\linksrc\FormsViewGroup.dll.mdb

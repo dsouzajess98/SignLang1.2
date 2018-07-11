@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "PowerArgs/3.0.0": {
         "type": "package",
         "compile": {
@@ -150,7 +138,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -163,18 +150,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "PowerArgs/3.0.0": {
         "type": "package",
         "compile": {
@@ -311,7 +286,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -324,18 +298,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "PowerArgs/3.0.0": {
         "type": "package",
         "compile": {
@@ -472,7 +434,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -485,18 +446,6 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "PowerArgs/3.0.0": {
         "type": "package",
         "compile": {
@@ -633,7 +582,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Kawaian.OpenCVSharp": "1.0.0",
           "PowerArgs": "3.0.0",
           "Xamarin.Forms": "3.0.0.482510"
         },
@@ -647,16 +595,6 @@
     }
   },
   "libraries": {
-    "Kawaian.OpenCVSharp/1.0.0": {
-      "sha512": "qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
-      "type": "package",
-      "path": "kawaian.opencvsharp/1.0.0",
-      "files": [
-        "kawaian.opencvsharp.1.0.0.nupkg.sha512",
-        "kawaian.opencvsharp.nuspec",
-        "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll"
-      ]
-    },
     "PowerArgs/3.0.0": {
       "sha512": "NTO3KyaPqYgztP5qVhY+hnO/7FgCVtIaFU7M4B+NQc0LZ/F52CvhWsZAmwIM/klYWeDxzKF7y8eU23Ve8u5oWw==",
       "type": "package",
@@ -824,7 +762,6 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "CustomRenderer >= 1.0.0",
-      "Kawaian.OpenCVSharp >= 1.0.0",
       "Xamarin.Forms >= 3.0.0.482510"
     ]
   },
@@ -865,10 +802,6 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "Kawaian.OpenCVSharp": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.0.0.482510, )"

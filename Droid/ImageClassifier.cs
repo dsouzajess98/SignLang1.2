@@ -31,7 +31,7 @@ namespace CustomRenderer.Droid
 
         public string RecognizeImage(Bitmap bitmap)
         {            
-            Console.WriteLine("Hello image");
+          //  Console.WriteLine("Hello image");
             var outputNames = new[] { OutputName };            
             var floatValues = GetBitmapPixels(bitmap);
           //  System.Diagnostics.Debug.Write("jqdkjqhej " + floatValues);
@@ -46,12 +46,13 @@ namespace CustomRenderer.Droid
             for (var i = 0; i < outputs.Length; ++i)
             {
                 results.Add(Tuple.Create(outputs[i], labels[i]));
-//                System.Diagnostics.Debug.WriteLine(outputs[i] + " " + labels[i]);
+           //     System.Diagnostics.Debug.WriteLine(outputs[i] + " " + labels[i]);
 
             }
     
             string v= results.OrderByDescending(t => t.Item1).First().Item2;
-       //     System.Diagnostics.Debug.WriteLine("jqks " + v);
+            System.Diagnostics.Debug.WriteLine("jqks " + v);
+            CustomRenderer.MainPage.result.Text = v;
             return v;
         }
 

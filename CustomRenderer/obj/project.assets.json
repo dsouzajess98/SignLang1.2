@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.0": {
-      "Kawaian.OpenCVSharp/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.4.0.18342"
-        },
-        "compile": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        },
-        "runtime": {
-          "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll": {}
-        }
-      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -67,16 +55,6 @@
     }
   },
   "libraries": {
-    "Kawaian.OpenCVSharp/1.0.0": {
-      "sha512": "qH6p223Rp6Yq4/QMKq/feFyEm+TFflDFcW2Udf4xNy7ERi0NlEQDHMLBZoukJG4YLZGc+6lZUWHg0fN/tJty8Q==",
-      "type": "package",
-      "path": "kawaian.opencvsharp/1.0.0",
-      "files": [
-        "kawaian.opencvsharp.1.0.0.nupkg.sha512",
-        "kawaian.opencvsharp.nuspec",
-        "lib/portable45-net45+win8+wpa81/OpenCvSharp.dll"
-      ]
-    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
@@ -379,7 +357,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Kawaian.OpenCVSharp >= 1.0.0",
       "NETStandard.Library >= 2.0.1",
       "PowerArgs >= 3.0.0",
       "Xamarin.Forms >= 3.0.0.482510"
@@ -426,10 +403,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Kawaian.OpenCVSharp": {
-            "target": "Package",
-            "version": "[1.0.0, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
@@ -452,17 +425,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Kawaian.OpenCVSharp 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETStandard,Version=v2.0'. This package may not be fully compatible with your project.",
-      "libraryId": "Kawaian.OpenCVSharp",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  }
 }

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomRenderer.Help">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image x:Name="BG" Source="bg1.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" MinimumHeightRequest="1000" MinimumWidthRequest="1000"></Image>
+
+            <StackLayout>
+                <Image x:Name="H" Source="H1.png" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" MinimumHeightRequest="1000" MinimumWidthRequest="1000" Margin="50,200"></Image>
+                    <Entry VerticalOptions="CenterAndExpand" 
+                   TextColor="DarkBlue"
+                   FontSize="Large"
+                HorizontalOptions="CenterAndExpand" FontFamily = "Verdana" WidthRequest="500" Placeholder="Communication is essential tool in our daily lives. But the difficulty of the Sign 
+                   Language impairs dialogue between those who use it,and those who don't.This 
+                   application has been designed in an attempt to enable and enhance conversations 
+                   between these two communities.It translates hand gestures from the Indian Sign Language
+                   to English Alphabets in real time using Vision and an Image Classifier,on a portable and
+                   convenient Mobile Application platform available for Android.
+                " />
+            </StackLayout>
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>

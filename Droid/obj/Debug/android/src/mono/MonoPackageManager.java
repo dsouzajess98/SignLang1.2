@@ -110,7 +110,6 @@ class MonoPackageManager_Resources {
 		"CustomRenderer.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
-		"OpenCvSharp.dll",
 		"Plugin.CurrentActivity.dll",
 		"Plugin.Media.dll",
 		"Plugin.Permissions.dll",

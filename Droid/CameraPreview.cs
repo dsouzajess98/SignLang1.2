@@ -6,7 +6,6 @@ using Android.Hardware;
 using Android.Runtime;
 using Android.Views;
 using PowerArgs;
-using OpenCvSharp;
 using TensorFlow;
 using System.IO;
 using System.Threading.Tasks;
@@ -57,7 +56,7 @@ namespace CustomRenderer.Droid
             }
             finally
             {
-                CustomRenderer.MainPage.result.Text = "Changed";
+              //  CustomRenderer.MainPage.result.Text = "Changed";
             }
             
             

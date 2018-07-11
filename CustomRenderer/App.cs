@@ -6,7 +6,7 @@ namespace CustomRenderer
 	{
 		public App ()
 		{
-			MainPage = new CustomRenderer.MainPage ();
+			MainPage = new CustomRenderer.Startup();
 		}
 
 		protected override void OnStart ()
