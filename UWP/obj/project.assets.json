@@ -7041,11 +7041,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\UWP\\CustomRenderer.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\UWP\\CustomRenderer.UWP.csproj",
       "projectName": "CustomRenderer.UWP",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\UWP\\CustomRenderer.UWP.csproj",
+      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\UWP\\CustomRenderer.UWP.csproj",
       "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\UWP\\obj\\",
+      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7065,8 +7065,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj": {
-              "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj"
+            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
+              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
             }
           }
         }

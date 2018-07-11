@@ -720,11 +720,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\iOS\\CustomRenderer.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\CustomRenderer.iOS.csproj",
       "projectName": "CustomRenderer.iOS",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\iOS\\CustomRenderer.iOS.csproj",
+      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\CustomRenderer.iOS.csproj",
       "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\iOS\\obj\\",
+      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -741,8 +741,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj": {
-              "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj"
+            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
+              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
             }
           }
         }

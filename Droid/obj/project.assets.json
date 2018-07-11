@@ -4007,11 +4007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\Droid\\CustomRenderer.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\Droid\\CustomRenderer.Droid.csproj",
       "projectName": "CustomRenderer.Droid",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\Droid\\CustomRenderer.Droid.csproj",
+      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\Droid\\CustomRenderer.Droid.csproj",
       "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\Droid\\obj\\",
+      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -4028,8 +4028,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj": {
-              "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj"
+            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
+              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
             }
           }
         }

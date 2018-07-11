@@ -348,11 +348,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj",
+      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj",
       "projectName": "CustomRenderer",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\CustomRenderer.csproj",
+      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj",
       "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\xamarin-forms-samples-master\\CustomRenderers\\View\\CustomRenderer\\obj\\",
+      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
