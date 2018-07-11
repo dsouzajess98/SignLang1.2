@@ -18,11 +18,7 @@ namespace CustomRenderer.Droid
     public class CameraPreviewRenderer : ViewRenderer<CustomRenderer.CameraPreview, CustomRenderer.Droid.CameraPreview>
     {
         CameraPreview cameraPreview;
-        
-
        
-
-
         public CameraPreviewRenderer(Context context) : base(context)
         {
         }
@@ -30,12 +26,6 @@ namespace CustomRenderer.Droid
         protected override void OnElementChanged(ElementChangedEventArgs<CustomRenderer.CameraPreview> e)
         {
             base.OnElementChanged(e);
-           
-
-            
-
-
-
 
             if (Control == null)
             {

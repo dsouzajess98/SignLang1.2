@@ -14,11 +14,15 @@ JavaSdkPath=
 AndroidSequencePointsMode=None
 XamarinAndroidVersion=8.3.0-19
 MonoSymbolArchive=False
-AndroidUseLatestPlatformSdk=True
+AndroidUseLatestPlatformSdk=true
 TargetFrameworkVersion=v8.1
 AndroidCreatePackagePerAbi=
 OS=Windows_NT
 DesignTimeBuild=true
 AndroidIncludeDebugSymbols=True
+<<<<<<< HEAD
 AdbTarget=
+=======
+AdbTarget=-s 33009ed8a802c2cb
+>>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
 AdbOptions=

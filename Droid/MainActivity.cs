@@ -1,5 +1,4 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
@@ -7,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Xamarin.Forms.Platform.Android;
+using Xamarin.Forms;
 
 namespace CustomRenderer.Droid
 {
@@ -16,10 +17,10 @@ namespace CustomRenderer.Droid
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
-
-			global::Xamarin.Forms.Forms.Init (this, bundle);
-
-			LoadApplication (new App ());
+            
+            global::Xamarin.Forms.Forms.Init (this, bundle);
+         //   Xam.Plugins.OnDeviceCustomVision.CrossImageClassifier.Current.Init("model.pb", Xam.Plugins.OnDeviceCustomVision.ModelType.General);
+            LoadApplication (new App ());
 		}
 	}
 }

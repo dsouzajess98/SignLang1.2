@@ -109,11 +109,16 @@ class MonoPackageManager_Resources {
 		"CustomRenderer.Droid.dll",
 		"CustomRenderer.dll",
 		"FormsViewGroup.dll",
-		"OpenCvSharp.Blob.dll",
+		"Newtonsoft.Json.dll",
 		"OpenCvSharp.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.Media.dll",
+		"Plugin.Permissions.dll",
 		"PowerArgs.dll",
+		"System.Drawing.dll",
 		"TensorFlowSharp.dll",
 		"TensorFlowXamarin.dll",
+		"Xam.Plugins.OnDeviceCustomVision.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Annotations.dll",
 		"Xamarin.Android.Support.Compat.dll",
@@ -134,6 +139,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
+		"System.Configuration.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

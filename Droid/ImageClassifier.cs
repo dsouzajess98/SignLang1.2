@@ -30,10 +30,11 @@ namespace CustomRenderer.Droid
         static readonly string OutputName = "loss";
 
         public string RecognizeImage(Bitmap bitmap)
-        {
-            Console.WriteLine("Hello");
-            var outputNames = new[] { OutputName };
+        {            
+            Console.WriteLine("Hello image");
+            var outputNames = new[] { OutputName };            
             var floatValues = GetBitmapPixels(bitmap);
+          //  System.Diagnostics.Debug.Write("jqdkjqhej " + floatValues);
             var outputs = new float[labels.Count];
 
             inferenceInterface.Feed(InputName, floatValues, 1, InputSize, InputSize, 3);
@@ -41,10 +42,17 @@ namespace CustomRenderer.Droid
             inferenceInterface.Fetch(OutputName, outputs);
 
             var results = new List<Tuple<float, string>>();
+    
             for (var i = 0; i < outputs.Length; ++i)
+            {
                 results.Add(Tuple.Create(outputs[i], labels[i]));
+//                System.Diagnostics.Debug.WriteLine(outputs[i] + " " + labels[i]);
 
-            return results.OrderByDescending(t => t.Item1).First().Item2;
+            }
+    
+            string v= results.OrderByDescending(t => t.Item1).First().Item2;
+       //     System.Diagnostics.Debug.WriteLine("jqks " + v);
+            return v;
         }
 
         static float[] GetBitmapPixels(Bitmap bitmap)
@@ -62,9 +70,9 @@ namespace CustomRenderer.Droid
                     {
                         var val = intValues[i];
 
-                        floatValues[i * 3 + 0] = ((val & 0xFF) - 104);
-                        floatValues[i * 3 + 1] = (((val >> 8) & 0xFF) - 117);
-                        floatValues[i * 3 + 2] = (((val >> 16) & 0xFF) - 123);
+                        floatValues[i * 3 + 0] = ((val & 0xFF));// - 104);
+                        floatValues[i * 3 + 1] = (((val >> 8) & 0xFF));// - 117);
+                        floatValues[i * 3 + 2] = (((val >> 16) & 0xFF));// - 123);
                     }
 
                     resizedBitmap.Recycle();

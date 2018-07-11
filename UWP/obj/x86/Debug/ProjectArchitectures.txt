@@ -1,1 +1,1 @@
-C:\Users\dsouz\Desktop\xamarin-forms-samples-master\CustomRenderers\View\UWP\CustomRenderer.UWP.csproj;x86
+C:\Users\dell\source\repos\SignLang1.2\UWP\CustomRenderer.UWP.csproj;x86
