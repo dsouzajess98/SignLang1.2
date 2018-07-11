@@ -7134,19 +7134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\UWP\\CustomRenderer.UWP.csproj",
-      "projectName": "CustomRenderer.UWP",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\UWP\\CustomRenderer.UWP.csproj",
-      "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\UWP\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\UWP\\CustomRenderer.UWP.csproj",
       "projectName": "CustomRenderer.UWP",
       "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\UWP\\CustomRenderer.UWP.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\UWP\\obj\\",
->>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7166,13 +7158,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
-              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
-=======
             "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj": {
               "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj"
->>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
             }
           }
         }
@@ -7220,5 +7207,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\dell\\source\\repos\\SignLang1.2\\UWP\\obj\\CustomRenderer.UWP.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

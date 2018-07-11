@@ -4,7 +4,8 @@
 			 xmlns:local="clr-namespace:CustomRenderer;assembly=CustomRenderer"
 			 x:Class="CustomRenderer.MainPage"
 			 Padding="0,20,0,0"
-			 Title="Main Page">
+			 Title="Main Page"
+             >
 	<ContentPage.Content>
 		<StackLayout>
 			<Label Text="Camera Preview:" />

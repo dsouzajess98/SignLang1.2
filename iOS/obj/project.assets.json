@@ -638,11 +638,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -771,19 +773,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\CustomRenderer.iOS.csproj",
-      "projectName": "CustomRenderer.iOS",
-      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\CustomRenderer.iOS.csproj",
-      "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\CustomRenderer.iOS.csproj",
       "projectName": "CustomRenderer.iOS",
       "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\CustomRenderer.iOS.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\obj\\",
->>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -800,13 +794,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
-              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
-=======
             "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj": {
               "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj"
->>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
             }
           }
         }
@@ -833,5 +822,13 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\obj\\CustomRenderer.iOS.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

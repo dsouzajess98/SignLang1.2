@@ -24,7 +24,7 @@ namespace CustomRenderer.Droid
 		IList<Camera.Size> supportedPreviewSizes;
 		Camera camera;
 		IWindowManager windowManager;
-        static int count=0;
+        
         public bool IsPreviewing { get; set; }
         readonly ImageClassifier imageClassifier = new ImageClassifier();
         public Camera Preview {
@@ -97,6 +97,7 @@ namespace CustomRenderer.Droid
             0, 0, 0, 1, 0,};
 
             Android.Graphics.Bitmap bmpGrayscale = Android.Graphics.Bitmap.CreateBitmap(width, height, Android.Graphics.Bitmap.Config.Argb8888);
+            GC.Collect();
             Android.Graphics.Canvas c = new Android.Graphics.Canvas(bmpGrayscale);
             Android.Graphics.ColorMatrixColorFilter filter = new Android.Graphics.ColorMatrixColorFilter(mat);
             Android.Graphics.Paint paint = new Android.Graphics.Paint();

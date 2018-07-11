@@ -1,25 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CustomRenderer.Help">
+             x:Class="CustomRenderer.Help"
+             BackgroundImage="bg.jpg">
+    
     <ContentPage.Content>
         <AbsoluteLayout>
-            <Image x:Name="BG" Source="bg1.png" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" MinimumHeightRequest="1000" MinimumWidthRequest="1000"></Image>
-
-            <StackLayout>
-                <Image x:Name="H" Source="H1.png" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" MinimumHeightRequest="1000" MinimumWidthRequest="1000" Margin="50,200"></Image>
-                    <Entry VerticalOptions="CenterAndExpand" 
+           
+           
+            <StackLayout Padding="10,0">
+                
+                    <Label VerticalOptions="CenterAndExpand" 
                    TextColor="DarkBlue"
-                   FontSize="Large"
-                HorizontalOptions="CenterAndExpand" FontFamily = "Verdana" WidthRequest="500" Placeholder="Communication is essential tool in our daily lives. But the difficulty of the Sign 
-                   Language impairs dialogue between those who use it,and those who don't.This 
-                   application has been designed in an attempt to enable and enhance conversations 
-                   between these two communities.It translates hand gestures from the Indian Sign Language
-                   to English Alphabets in real time using Vision and an Image Classifier,on a portable and
-                   convenient Mobile Application platform available for Android.
-                " />
+                   FontSize="Medium"
+                HorizontalOptions="CenterAndExpand" FontFamily = "Verdana" WidthRequest="350" 
+                   Text="&#x0a;&#x0a;This app recognizes the Indian Sign Language alphabets.&#x0a;&#x0a;&#x0a;1. Set a region to place your hand in.&#x0a;&#x0a;2. Make any sign. The result will be displayed. &#x0a;
+                          " />
             </StackLayout>
         </AbsoluteLayout>
 
     </ContentPage.Content>
 </ContentPage>
+    
