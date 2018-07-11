@@ -771,11 +771,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\CustomRenderer.iOS.csproj",
+      "projectName": "CustomRenderer.iOS",
+      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\CustomRenderer.iOS.csproj",
+      "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\iOS\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\CustomRenderer.iOS.csproj",
       "projectName": "CustomRenderer.iOS",
       "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\CustomRenderer.iOS.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\iOS\\obj\\",
+>>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -792,8 +800,13 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
+<<<<<<< HEAD
+            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
+              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
+=======
             "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj": {
               "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj"
+>>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
             }
           }
         }

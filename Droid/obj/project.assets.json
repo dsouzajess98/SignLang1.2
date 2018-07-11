@@ -995,11 +995,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\dsouz\\Desktop\\View\\Droid\\CustomRenderer.Droid.csproj",
+      "projectName": "CustomRenderer.Droid",
+      "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\Droid\\CustomRenderer.Droid.csproj",
+      "packagesPath": "C:\\Users\\dsouz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dsouz\\Desktop\\View\\Droid\\obj\\",
+=======
       "projectUniqueName": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\Droid\\CustomRenderer.Droid.csproj",
       "projectName": "CustomRenderer.Droid",
       "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\Droid\\CustomRenderer.Droid.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\Droid\\obj\\",
+>>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1016,8 +1024,13 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
+<<<<<<< HEAD
+            "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj": {
+              "projectPath": "C:\\Users\\dsouz\\Desktop\\View\\CustomRenderer\\CustomRenderer.csproj"
+=======
             "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj": {
               "projectPath": "C:\\Users\\dell\\source\\repos\\SignLang1.2\\CustomRenderer\\CustomRenderer.csproj"
+>>>>>>> 6064a0b910d51afd962381101df8ace5c255a020
             }
           }
         }
