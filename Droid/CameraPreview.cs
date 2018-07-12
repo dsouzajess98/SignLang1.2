@@ -51,8 +51,9 @@ namespace CustomRenderer.Droid
                 int height = parameters.PreviewSize.Height;
                 Android.Graphics.Bitmap bmp = BytetoMap(data,camera);
 
-                var result = Task.Run(() => imageClassifier.RecognizeImage(bmp));
-                System.Diagnostics.Debug.WriteLine(result);
+                var x=Task.Run(() => imageClassifier.RecognizeImage(bmp));
+               // System.Diagnostics.Debug.WriteLine(result);
+                CustomRenderer.MainPage.result.Text=x.Result;
             }
             finally
             {

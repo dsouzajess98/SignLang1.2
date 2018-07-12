@@ -2694,6 +2694,9 @@ namespace CustomRenderer.Droid
 			// aapt resource value: 2130837731
 			public static int ic_vol_type_tv_light = 2130837731;
 			
+			// aapt resource value: 0
+			public static int isl = 0;
+			
 			// aapt resource value: 2130837732
 			public static int mr_button_connected_dark = 2130837732;
 			
@@ -2792,9 +2795,6 @@ namespace CustomRenderer.Droid
 			
 			// aapt resource value: 2130837605
 			public static int notify_panel_notification_icon_bg = 2130837605;
-			
-			// aapt resource value: 0
-			public static int signlanguage = 0;
 			
 			static Drawable()
 			{

@@ -5,7 +5,7 @@ using System.Linq;
 using Android.App;
 using Android.Graphics;
 using Org.Tensorflow.Contrib.Android;
-
+using System.Threading.Tasks;
 namespace CustomRenderer.Droid
 {
     public class ImageClassifier 
@@ -52,7 +52,7 @@ namespace CustomRenderer.Droid
     
             string v= results.OrderByDescending(t => t.Item1).First().Item2;
             System.Diagnostics.Debug.WriteLine("jqks " + v);
-            CustomRenderer.MainPage.result.Text = v;
+            
             return v;
         }
 
